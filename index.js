@@ -3,7 +3,7 @@ module.exports = {
 	routingKey: {
 		cities: 'citynames',
 		pages: 'pagenums',
-		zipds: 'zipids',
+		zipids: 'zipids',
 		properties: 'propertyinfo'
 	},
 	queueName: {
