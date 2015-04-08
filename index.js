@@ -10,5 +10,11 @@ module.exports = {
 		cities: 'houz-queue-cityname',
 		pages: 'houz-queue-pagenum',
 		zipids: 'houz-queue-zipid'
+	},
+	messageExpectations: {
+		cities: { city: 'city' },
+		pages: { pagenum: 'num', city: 'city' },
+		zipids: { zipid: 'zipid' },
+		properties: { propertyinfo: 'propertyinfo' }
 	}
 };
